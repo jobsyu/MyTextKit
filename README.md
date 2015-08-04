@@ -1,2 +1,4 @@
 # MyTextKit
+1、NSTextStorage对象用于存储文字,NSLayoutManager对象从NSTextStorage对象中取得文本内容进行排版,然后把排版之后的文本放到NSTextContainer对象指定的区域上。最后再由一个文本控件从NSTextContainer中取出内容显示到屏幕中。
+2、NSLayoutManager 对象相当于排版工人，NSTextStorage对象相当于特定字体的铅字库,NSTextContainer相当于我们看到的活字模具,文本控件从NSTextContainer中取出内容显示到屏幕的过程就相当于印刷的过程。
 MyTextkit
